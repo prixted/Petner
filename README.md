@@ -89,12 +89,3 @@ Github 사용법
  
  
  
- 
- 
- 
- 
- 
- 
- 
-0. 빨간 줄 밑에 Brench : developer가 있으면 그쪽으로, 없으면 master도 상관없음
- 
