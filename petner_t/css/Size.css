@@ -1,0 +1,14 @@
+.slider{
+    width: 900px;
+    height: 800px;
+    background: red;
+}
+.cen{
+    align-content: center;
+}
+
+
+.section_padding {
+    padding: 130px 0px;
+  }
+
