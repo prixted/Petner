@@ -30,14 +30,6 @@
 	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/main.css">
-
-    <!-- jQuery library (served from Google) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
-
-
 </head>
 
 <body>
@@ -103,33 +95,137 @@
 	<!--######## End Header Area ########-->
 
 	<!--######## start banner Area ########-->
+	<section class="banner-area relative" id="home">
+		<div class="container">
+			<div class="row d-flex align-items-center justify-content-center">
+				<div class="about-content col-lg-12">
+					<h1 class="text-white text-uppercase">
+						Portfolio
+					</h1>
+					<p class="text-white link-nav"><a href="index.html">Home </a> <span class="lnr lnr-arrow-right"></span> <a href="portfolio.html">
+							Portfolio</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
 	<!--######## End banner Area ########-->
 
 	<!--######## Start Recent Completed Project Area ########-->
-					
-					<!-- <div class="home__slider" style="width: 700px; height: 500px;"> 
-						<div class="bxslider"  style="width: 700px; height: 500px;"> 
-							<div><img src="img/beauty/2.jpg" alt="그림1"></div>
-							<div><img src="img/beauty/3-1.jpg" alt="그림1"></div>
-							<div><img src="img/beauty/3.jpg" alt="그림1"></div>
-						</div> 
-					</div>  -->
-				<div style="height: 500px; width: 700px;">
-					<ul class="bxslider">
-						<li><img src="img/beauty/3.jpg"  style="height: 500px; width: 700px;"/></li>
-						<li><img src="img/beauty/KakaoTalk_Photo_2019-01-25-21-37-31-10.png"  style="height: 500px; width: 700px;"/></li>
-						<li><img src="img/beauty/KakaoTalk_Photo_2019-01-25-21-37-31-11.png"  style="height: 500px; width: 700px;"/></li>
-						<li><img src="img/beauty/2-1.jpg"  style="height: 500px; width: 700px;"/></li>
-					</ul>
+	<section class="recent-completed-project section-gap">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-12">
+					<div class="main-title text-center">
+						<h1>Our Recent Completed Projects</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+							aliqua.
+						</p>
+					</div>
 				</div>
-					<script>
-						$(document).ready(function(){
-							$('.bxslider').bxSlider();
-						});
+			</div>
 
-					
-					</script>
-					  
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="filters project-filter">
+						<ul>
+							<li class="active" data-filter=".all">All Categories</li>
+							<li data-filter=".brand">Branding</li>
+							<li data-filter=".img-man">Image Manipulation</li>
+							<li data-filter=".creative">Creative Work</li>
+							<li data-filter=".web">Web Design</li>
+							<li data-filter=".print-mat">Print Material</li>
+						</ul>
+					</div>
+					<div class="projects_inner row" id="lightgallery">
+						<div class="col-lg-4 col-sm-6 web all" data-src="img/project/p1.jpg">
+							<div class="projects_item">
+								<img class="img-fluid w-100" src="img/project/p1.jpg" alt="">
+								<div class="icon">
+									<img class="img-fluid" src="img/icon.png" alt="">
+								</div>
+							</div>
+							<div class="projects_text">
+								<h4>
+									<a href="portfolio-details.html">3D Helmet Design</a>
+								</h4>
+								<p>Client Project</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 brand all creative" data-src="img/project/p2.jpg">
+							<div class="projects_item">
+								<img class="img-fluid w-100" src="img/project/p2.jpg" alt="">
+								<div class="icon">
+									<img class="img-fluid" src="img/icon.png" alt="">
+								</div>
+							</div>
+							<div class="projects_text">
+								<h4>
+									<a href="portfolio-details.html">2D Vinyl Design</a>
+								</h4>
+								<p>Client Project</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 all" data-src="img/project/p3.jpg">
+							<div class="projects_item">
+								<img class="img-fluid w-100" src="img/project/p3.jpg" alt="">
+								<div class="icon">
+									<img class="img-fluid" src="img/icon.png" alt="">
+								</div>
+							</div>
+							<div class="projects_text">
+								<h4>
+									<a href="portfolio-details.html">Creative Poster Design</a>
+								</h4>
+								<p>Client Project</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 all print-mat" data-src="img/project/p4.jpg">
+							<div class="projects_item">
+								<img class="img-fluid w-100" src="img/project/p4.jpg" alt="">
+								<div class="icon">
+									<img class="img-fluid" src="img/icon.png" alt="">
+								</div>
+							</div>
+							<div class="projects_text">
+								<h4>
+									<a href="portfolio-details.html">Embosed Logo Design</a>
+								</h4>
+								<p>Client Project</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 brand img-man all" data-src="img/project/p5.jpg">
+							<div class="projects_item">
+								<img class="img-fluid w-100" src="img/project/p5.jpg" alt="">
+								<div class="icon">
+									<img class="img-fluid" src="img/icon.png" alt="">
+								</div>
+							</div>
+							<div class="projects_text">
+								<h4>
+									<a href="portfolio-details.html">3D Disposable Bottle</a>
+								</h4>
+								<p>Client Project</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 brand work img-man all" data-src="img/project/p6.jpg">
+							<div class="projects_item">
+								<img class="img-fluid w-100" src="img/project/p6.jpg" alt="">
+								<div class="icon">
+									<img class="img-fluid" src="img/icon.png" alt="">
+								</div>
+							</div>
+							<div class="projects_text">
+								<h4>
+									<a href="portfolio-details.html">3D Logo Design</a>
+								</h4>
+								<p>Client Project</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 	<!--######## End Recent Completed Project Area ########-->
 
 	<!--######## start footer Area ########-->
@@ -189,45 +285,6 @@
 					</div>
 				</div>
 			</div>
-
-
-
-
-			<!-- <script>
-				$(document).ready(function(){ 
-					var main = $('.bxslider').bxSlider({ 
-					mode: 'fade', 
-					auto: true,   //자동으로 슬라이드 
-					controls : true,   //좌우 화살표   
-					autoControls: true,   //stop,play 
-					pager:true,   //페이징 
-					pause: 3000, 
-					autoDelay: 0,   
-					slideWidth: 800, 
-					speed: 500, 
-					stopAutoOnclick:true 
-				}); 
-	
-				$(".bx-stop").click(function(){   // 중지버튼 눌렀을때 
-					main.stopAuto(); 
-					$(".bx-stop").hide(); 
-					$(".bx-start").show(); 
-					return false; 
-				}); 
-	
-				$(".bx-start").click(function(){   //시작버튼 눌렀을때 
-				  main.startAuto(); 
-				  $(".bx-start").hide(); 
-				  $(".bx-stop").show(); 
-				  return false; 
-				}); 
-	
-				$(".bx-start").hide();   //onload시 시작버튼 숨김. 
-				}); 
-	
-	
-	
-			  </script> -->
 
 			<div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap">
 				<p class="col-lg-8 col-sm-12 footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
